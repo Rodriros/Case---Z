@@ -29,18 +29,18 @@ Este documento descreve as ações e payloads necessários para resolver os prob
 * **Body (JSON):**
 
 ```json
-{
-  "event": "invitee.created",
+
+  "event": "invite.sent",
   "payload": {
     "email": "cliente@exemplo.com",
-    "name": "João Silva",
+    "name": "Rodrigo Rosales",
+    "phone": "5583991289129",
     "scheduled_event": {
-      "start_time": "2023-11-25T14:00:00Z",
-      "status": "active"
+      "start_time": "2026-05-15T13:00:00Z"
     },
     "tracking": {
       "utm_source": "zoe_chatbot",
-      "salesforce_uuid": "00Q8W00000XyZ123" 
+      "session_id": "00Q8W00000XyZ123" 
     }
   }
 }
