@@ -30,6 +30,7 @@ Este documento descreve as ações e payloads necessários para resolver os prob
 
 ```json
 
+ {
   "event": "invite.sent",
   "payload": {
     "email": "cliente@exemplo.com",
